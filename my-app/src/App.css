@@ -1,0 +1,3 @@
+.upcomingEvents .list-group, .notifications .list-group {
+    border-radius: unset;
+}

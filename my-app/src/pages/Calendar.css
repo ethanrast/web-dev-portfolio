@@ -1,0 +1,56 @@
+.box {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 8px;
+  min-height: 120px;
+  background: #fafafa;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 12px;
+}
+
+.calendar-day-header {
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.calendar-no-events {
+  opacity: 0.5;
+}
+
+.calendar-event {
+  background: #e8f0fe;
+  border-radius: 4px;
+  padding: 4px 6px;
+  margin-bottom: 6px;
+  font-size: 0.85em;
+  cursor: pointer;
+}
+
+.calendar-event:hover {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+}
+
+.black_overlay {
+  position: fixed;
+  inset: 0;
+  background-color: black;
+  opacity: 0.8;
+  z-index: 1001;
+}
+
+.white_content {
+  position: fixed;
+  top: 25%;
+  left: 25%;
+  width: 50%;
+  height: 50%;
+  padding: 16px;
+  border: 16px solid orange;
+  background-color: white;
+  z-index: 1002;
+  overflow: auto;
+}

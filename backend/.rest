@@ -1,0 +1,110 @@
+### Login
+POST http://localhost:5189/api/Auth/login
+Content-Type: application/json
+
+{
+    "email": "notmicheal",
+    "password": "brownypoints-010"
+}
+
+### Admin
+POST http://localhost:5189/api/Auth/login
+Content-Type: application/json
+
+{
+    "email": "valdier@live.nl",
+    "password": "brownypoints-010"
+}
+
+### Register
+POST http://localhost:5189/api/Auth/register
+Content-Type: application/json
+
+{
+    "Name": "Michael Brown",
+    "Email": "notmicheal",
+    "Role": "Employee",
+    "Password": "brownypoints-010"
+}
+
+###
+POST http://localhost:5189/api/Auth/register
+Content-Type: application/json
+
+{
+    "Name": "valdier",
+    "Email": "valdier@live.nl",
+    "Role": "Admin",
+    "Password": "brownypoints-010"
+}
+
+### Get current logged-in user
+GET http://localhost:5189/api/Auth
+Accept: application/json
+
+###
+
+### Logout
+POST http://localhost:5189/api/Auth/logout
+
+### Get all events
+GET http://localhost:5189/api/Event
+Accept: application/json
+
+###
+
+### Get event by id
+GET http://localhost:5189/api/Event/18
+Accept: application/json
+
+###
+
+### Create a new event (Admin only)
+POST http://localhost:5189/api/Event
+Content-Type: application/json
+
+{
+    "Title": "pingpong",
+    "Description": "van wesley",
+    "EventDate": "2025-12-12T00:00:00",
+    "StartTime": "2025-12-12T10:00:00",
+    "EndTime": "2025-12-01T12:00:00"
+}
+
+### admin only
+DELETE http://localhost:5189/api/Event/5
+
+#############################################################
+
+### attend 
+POST http://localhost:5189/api/Event/18/attend
+
+### Cancel attendance
+POST http://localhost:5189/api/Event/18/cancel
+
+### 
+
+GET http://localhost:5189/api/Event/5/check
+
+### Book a room (SUCCESS if available)
+POST http://localhost:5189/api/RoomBooking/book
+Content-Type: application/json
+
+{
+    "roomId": 1,
+    "bookingDate": "2025-12-12",
+    "startTime": "10:00:00",
+    "endTime": "11:00:00",
+    "purpose": "Team meeting"
+}
+
+
+### Create a new room
+POST http://localhost:5189/api/Room
+Content-Type: application/json
+
+{
+    "roomName": "Conference Room A",
+    "capacity": 10,
+    "location": "1st Floor"
+}

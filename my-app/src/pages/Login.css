@@ -1,0 +1,25 @@
+
+
+.login-page {
+  font-family: Arial, sans-serif;
+}
+
+.login-box {
+  width: 320px;
+  max-width: 90%;
+}
+
+
+.btn-primary {
+  background-color: #2b2b2b;  
+  border-color: #3a3a3a;
+  color: #ffffff;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #3a3a3a;  
+  border-color: #4a4a4a;
+  color: #ffffff;
+}
