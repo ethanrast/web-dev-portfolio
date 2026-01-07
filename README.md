@@ -43,7 +43,9 @@ Conditional Rendering
 - Linked all attendance actions to the logged-in user's ID instead of static data
 - Built complete Create, Read, Update, Delete operations with proper authorization
 
-  My Contributions to the backend
+
+
+My Contributions to the Backend:
 
 Security & Validation
 - Secured all attendance endpoints with authentication
