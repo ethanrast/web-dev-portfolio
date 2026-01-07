@@ -39,7 +39,7 @@ Conditional Rendering
 - Dynamic UI elements based on authentication state
 - Protected content visibility based on user permissions
 
-- Implemented attendance modification allowing logged-in users to **edit only their own attendance**
+- Implemented attendance modification allowing logged-in users to edit only their own attendance
 - Linked all attendance actions to the logged-in user's ID instead of static data
 - Built complete Create, Read, Update, Delete operations with proper authorization
 
@@ -51,7 +51,7 @@ Security & Validation
 - Prevented unauthorized access to other users' records
 
 Booking Functionality
-- Implemented room booking feature allowing logged-in users to **book only available rooms**
+- Implemented room booking feature allowing logged-in users to book only available rooms
 - Built availability checking logic
 - Linked bookings to authenticated user accounts
 
