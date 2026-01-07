@@ -6,6 +6,7 @@ It simulates a real-world calendar & attendance platform where users can authent
 
 
 During this project I learned how to:
+
 -Build and structure a React + TypeScript front-end
 
 -Create REST APIs using C# and ASP.NET
