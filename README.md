@@ -41,7 +41,7 @@ Conditional Rendering
 
 - Implemented attendance modification allowing logged-in users to edit only their own attendance
 - Linked all attendance actions to the logged-in user's ID instead of static data
-- Built complete Create, Read, Update, Delete operations with proper authorization
+
 
 
 
@@ -49,8 +49,6 @@ Conditional Rendering
 
 
 My Contributions to the Backend:
-
-Security & Validation
 - Secured all attendance endpoints with authentication
 - Implemented server-side validation and error handling
 - Prevented unauthorized access to other users' records
@@ -64,11 +62,6 @@ Endpoint Security
 - Secured all room booking endpoints with authentication
 - Reused login logic for consistent authorization across features
 - Implemented server-side validation and error handling
-
-Error Handling
-- Implemented comprehensive server-side validation
-- Built proper error handling throughout the application
-- Provided meaningful error messages to users
 
   
 
