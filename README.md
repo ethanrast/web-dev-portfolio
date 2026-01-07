@@ -7,8 +7,13 @@ It simulates a real-world calendar & attendance platform where users can authent
 
 During this project I learned how to:
 -Build and structure a React + TypeScript front-end
+
 -Create REST APIs using C# and ASP.NET
+
 -Handle authentication & state management
+
 -Connect front-end and back-end systems
+
 -Work in an Agile / Scrum team environment
+
 -Use Git & GitHub for collaboration and version control
